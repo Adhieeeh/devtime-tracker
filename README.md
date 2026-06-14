@@ -1,16 +1,15 @@
-# React + Vite
+# ⏱ DevTime — Freelance Time Tracker & Invoice Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+DevTime is a lightweight developer productivity tool engineered with React that acts as a localized ledger for freelance project sessions. It tracks hours worked, multiplies live billing factors, saves state to local browser contexts, and builds pre-formatted Markdown itemized invoice receipts with a single click.
 
-Currently, two official plugins are available:
+## Preview 
+    ![](devt.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+##  Technical Highlights
+*  **Reactive Ledger Aggregations:** Uses React context tracking array configurations to map real-time totals instantly.
+*  **Persistent Workspace Sync:** Integrates browser `localStorage` hooks to keep time cards secure through reboots.
+*  **Dynamic String Exporting:** Compiles object lists into readable Markdown text layout summaries for easy distribution.
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Execution Instructions
+1. Install packages: `npm install`
+2. Run ecosystem: `npm run dev`
