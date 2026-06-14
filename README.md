@@ -3,7 +3,7 @@
 DevTime is a lightweight developer productivity tool engineered with React that acts as a localized ledger for freelance project sessions. It tracks hours worked, multiplies live billing factors, saves state to local browser contexts, and builds pre-formatted Markdown itemized invoice receipts with a single click.
 
 ## Preview 
-    ![](devt.png)
+![](devt.png)
 
 ##  Technical Highlights
 *  **Reactive Ledger Aggregations:** Uses React context tracking array configurations to map real-time totals instantly.
