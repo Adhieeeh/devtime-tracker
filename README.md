@@ -1,5 +1,5 @@
 # ⏱ DevTime — Freelance Time Tracker & Invoice Generator
-
+------------------------------------------------------------
 DevTime is a lightweight developer productivity tool engineered with React that acts as a localized ledger for freelance project sessions. It tracks hours worked, multiplies live billing factors, saves state to local browser contexts, and builds pre-formatted Markdown itemized invoice receipts with a single click.
 
 ## Preview 
